@@ -1,0 +1,69 @@
+button {
+  /* display: block; */
+  margin: 1rem;
+  padding: 10px 4px 4px 4px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.first,
+.second,
+.third {
+  /* width: 100%; */
+  height: 6px;
+  margin: 0 0 6px 0;
+  background-color: red;
+  border-radius: 4px;
+}
+
+nav {
+  background-color: green;
+  padding: 1rem 0;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+.hideMenu {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  background-color: transparent;
+  font-size: 0;
+}
+
+.change div {
+  background-color: green;
+}
+
+.change div:nth-child(2) {
+  background-color: transparent;
+}
+
+.change div:nth-child(1) {
+  margin-left: 5px;
+}
+
+.change div:nth-child(3) {
+  margin-right: 5px;
+}
+
+.buttonHidden {
+  visibility: hidden;
+}
