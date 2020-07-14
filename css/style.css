@@ -40,6 +40,10 @@ a {
   color: white;
 }
 
+.normalLink {
+  color: initial;
+}
+
 .hideMenu {
   height: 0;
   width: 0;
