@@ -1,3 +1,7 @@
+// ! eerste zorgen dat de button werkt dus open of dicht blijven op een paginawissel 
+//! daarna zorgen dat dit ook werkt als je de pagina resized
+
+
 const menu = document.querySelector('nav');
 const button = document.querySelector('button');
 const links = menu.querySelectorAll('a');
